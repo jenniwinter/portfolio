@@ -65,7 +65,7 @@
                                     <span class="image fit"><img src="imagesbeyond/bd_journey.png"></span>
                                     
                                     <h3>Key Insights</h3>
-             						<p>In speaking with patients recently diagnosed with CHF, we realized that the caregivers played a huge role in managing the aftercare&mdash;at times, moreso than than the patients themselves. We focused on these behavioral discoveries when defining our target audience:</p>	
+             						<p>In speaking with patients recently diagnosed with CHF, we realized that the caregivers played a huge role in managing the aftercare&mdash;at times, moreso than the patients themselves. We focused on these behavioral discoveries when defining our target audience:</p>	
                                     	<li>Lack of patient adherence to instructions after diagnosis is common.</li>
                                         <li>The shared goal between patient + caregiver (despite mostly contrasting goals) is that each wants to attain or support a "new normal" in their life after diagnosis.</li>
                                     	<li>Primary caregivers are managing a network of secondary caregivers (mostly family members), which requires intensive scheduling + coordination.</li>	
@@ -101,32 +101,24 @@
                                     
                                     <hr class="major" />
                                     
-                                    <h2>User Goals</h2>       
-                                    <p>Upon developing our personas, we were able to refine our problem space and develop 3 key groups of user goals that align with our persona needs.</p>
-                                    	<li><strong>Track + Monitor Patient Health:</strong> Both CGs and patients can record 3 key health status metrics: weight, sodium intake, and medications taken. Goals for each metric may be set for the patient, as well as alerts for metrics that fall within a danger zone. Goals and alerts will inform what type of actions are recommended to CGs within the "Actionable Dashboard" and "Caregiver Tasklist" features. A weekly view is available to help CGs get a larger picture of progress. General health notes may also be input here.</li>
-                                    	<br>
-                                        <li><strong>Collaborate on Tasks:</strong> For CG teams of 2 or more, this collaborative tasklist will allow for easier assignment and collaboration of tasks. Calendar syncing will allow for quick-add tasks for events like doctor's appointments. This feature will listen for alerts in the "Health Status Tracker" feature, and recommend tasks based on stats in the danger zone.</li>
-                                    	<br>
-                                        <li><strong>Get Alerts:</strong> Both CGs and patients will receive APN notifications, leading to an actionable list of tasks/followups on their homepage dashboard. These APNs include urgent patient health alerts, to-do assignment notifications, and late to-do reminders. There will be separate dashboard views for CGs and patients.</li>
-                                    
+                                    <h2>Feature Thinking</h2>
+                                    <p>Upon developing our personas, we were able to refine our problem space and develop 4 key user goals that align with our persona needs. <strong>Per the client's NDA, I'm restricted from sharing any user flows and wireframes.</strong> Therefore, instead of visuals, I've documented my thought process around the MVP's features.</p>
+                            		
+                                    <h3>1. Track Patient Health</h3>
+                                    <p>Patients record 3 key daily health vitals: <strong>weight, sodium, and medications taken.</strong> Vitals automatically sync if the patient has wearables/hardware. In addition to these objective metrics, patients are asked a subjective question of "How are you feeling?" on mornings and evenings, with emoji selections ranging from sad, neutral, to happy. Depression is common amongst CHF patients&mdash;communication of mood can help CGs be on alert from the start of the day to watch for symptoms outside of numeric stats.</p>
+                                    <h3>2. Monitor Progress</h3>
+                                    <p>CGs view health metrics over time to get a sense of progress from a weekly or monthly perspective. Each of the 3 vitals are visually represented in detail in the Progress feature, with daily details, timestamps, notes, and photos (if any). PDF reports of progress can also be exported for doctor's visits.</p>
+                                    <h3>3. Collaborate on Tasks</h3>
+                                    <p>CGs can create tasks and collaborate with other CGs on patient health and daily goals. CGs may assign tasks and set deadlines/reminders for both patients and CGs. Recommendations of common tasks are offered to help CGs get started. Calendar syncing allows for quick-add tasks for events like doctor's appointments.</p>
+                                    <h3>4. Get Alerts</h3>
+                                    <p>CGs and patients receive APN notifications, leading to an actionable list of tasks/followups on their homepage dashboard. These APNs include urgent patient health alerts (when health metrics fall in the danger zone), to-do assignment notifications, and late to-do reminders. There will be separate dashboard views for CGs and patients.</p>
+                               		
                                     <hr class="major" />
                                     
                                     <h2>App Structure</h2>
-                                    <p>The map below represents the structural organization of the mobile app based on an MVP feature list we ideated around tracking patient health, collaborating with a caregiver team, and reviewing overall health status.</p>
+                                    <p>The map below represents the structural organization of the mobile app based on the MVP feature list described above.</p>
                                     <span class="image fit"><img src="imagesbeyond/bd_appmap.png"></span>
                                     
-                                    <hr class="major" />
-                                    
-                                    <h2>Feature Thinking</h2>
-                                    <p><strong>Per the client's NDA, I'm restricted from sharing any user flows and wireframes.</strong> Therefore, instead of visuals, I've documented my thought process around the MVP's features.</p>
-                            		
-                                    <h3>Track Patient Health</h3>
-                                    <p>Patients are prompted to record 3 key daily health vitals: <strong>weight, sodium, and medications taken.</strong> Vitals will automatically sync if the patient has wearables/hardware. In addition to these objective metrics, patients will be asked a subjective question of "How are you feeling?" in the morning and evening, with emoji selections ranging from sad, neutral, to happy. As depression is common amongst CHF patients, communication of mood can help CGs be on alert from the start of the day to watch for certain symptoms outside of numeric stats.</p>
-                                    <h3>Monitor Progress</h3>
-                                    <p>CGs can view health metrics over time to get a sense of progress from a weekly or monthly perspective. Each of the 3 vitals are visually represented in detail in the Progress feature, with daily details, timestamps, notes, and photos (if any). PDF reports of progress can also be exported for doctor's visits.</p>
-                                    <h3>Collaborate on Tasks</h3>
-                                    <p>CGs can set tasks and collaborate with their CG team on their patient's health and daily goals. The CG team's list of tasks and deadlines live on the homepage/dashboard. CGs may assign tasks to both the patient or a specific CGs, and set deadlines and reminders. When creating (or editing) a task, a CG may select from a list of common suggestions to help them get started (especially considering CGs expressed a need for guidance and professional recommendation).</p>
-                               		
                                     <hr class="major" />
                                     
                                     <h2>Development Strategy</h2>
@@ -147,7 +139,7 @@
 										</div>
                                     </div>
                                     <br>
-                                    <p>The client ultimately went with our recommendation to go native, despite longer development process. This choice was more future-thinking, as it supported a more efficient patient experience with the possibility of hardware/wearble integration.</p>
+                                    <p>The client ultimately went with our recommendation to go native, despite longer development process. This choice was more future-thinking, as it supported a more efficient patient experience with the possibility of hardware/wearable integration.</p>
                                     
                                     <hr class="major" />
                                     
